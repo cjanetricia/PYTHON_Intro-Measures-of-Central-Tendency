@@ -1,0 +1,28 @@
+print('Hello World!')
+print('This is Jane Carino')
+print(21)
+print('ENGIE')
+baon=[200,4000,600,800]
+print (baon)
+baon2=[500,400,600,800]
+print(baon2)
+baon3=[1000,1500,500,1600]
+print(baon3)
+all=baon+baon2+baon3
+print(all)
+print(len(all))
+print('The no. of obs is:',(len(all)))
+print('The HV is:', max(all))
+print('The LV is:', min(all))
+print('The sum is:', sum(all))
+print('The mean is:', sum(all)/len(all))
+print('cute si reina')
+print('The Range is:', max(all)-min(all))
+pvalue = 0.03
+if pvalue > 0.03:
+   print('accept Ho')
+else:
+   print('reject Ho')
+atten=['Cardino','Regio','Pacampara','Dela Paz','Raborar','Gacal','Carino','Sarmiento','Catan','Gatuz','Tabladillo','Dioco','Tolentino','Panahon','Asis','Ceballos','Masirag']
+print('Total number of present:',len(atten))
+print (atten)
